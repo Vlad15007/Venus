@@ -1,10 +1,8 @@
 import telebot
-from flask import Flask, request
-import os
+from telebot import types
 import sqlite3
 import datetime
 
-SETTINGS_FILE_NAME = 'settings.txt'
 
 try:
     API_TOKEN=''
